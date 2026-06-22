@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, this is Laura Thompson. I'm having some difficulty breathing, and I'm feeling pretty anxious about it. Should I come in for an appointment right away?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+It's been getting harder to take deep breaths for the past hour, and my chest feels tight. I'm not sure if this is serious or if I should wait and see.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I haven't had any chest pain, but my breathing is shallow and rapid. I've been a little dizzy and very worried about what's happening.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I don’t have any known allergies or asthma, and I haven’t been sick recently. I’m just really feeling short of breath and a bit panicked.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I haven’t noticed any swelling in my legs or feet, and I’m not coughing up anything unusual. This just started suddenly, and it's really scaring me.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No, I haven't fainted or had any chest pain, and I'm not sweating excessively. I’m not sure what’s causing this, and it’s making me quite anxious.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+My heart feels like it's racing a bit, and my lips are starting to feel a little numb. Should I call emergency services?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yes, my breathing is getting worse, and I'm feeling very lightheaded. I think I need to get emergency help right now.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No, I haven't lost consciousness, but I feel like I might if this keeps up. Please advise me to call 911 immediately.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I don't have any medical devices like an oxygen monitor at home, unfortunately. Given how bad this feels, should I call 911 now?
+
+ATHENA:
+Can you provide more details?

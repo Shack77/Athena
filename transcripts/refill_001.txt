@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, this is Robert Jones. I’m calling to get a refill on my blood pressure medication.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, it's the medication you prescribed last time—Lisinopril, 20 mg. I've been taking it as directed.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Certainly. I've been taking one pill every morning, and my prescription was for a 30-day supply. I need another refill to continue without interruption.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+My medication was last filled about three weeks ago, and I have enough for about a week more. I'd like to avoid missing any doses.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I see. My doctor is Dr. Stevens, and the prescription was originally given during my last visit in April. Is there anything else you need from me?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+That's all I have offhand. If you need my date of birth or insurance info, I can provide that too.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+My date of birth is June 12, 1955, and my insurance provider is BlueCross BlueShield. Let me know if you need any other info.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Nothing else comes to mind. Is the refill request all set, or do I need to do anything else?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I think we've covered everything. Just let me know when I can pick up the refill or if it will be mailed.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No, that covers it for now. Thanks for your help!
+
+ATHENA:
+Can you provide more details?

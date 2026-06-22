@@ -1,0 +1,61 @@
+{
+    "overall_score": 8,
+    "call_successful": false,
+    "summary": "Agent failed to schedule the appointment, provided a misleading 'done' without details, did not confirm date/time, and repeatedly gave non-responses.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Scheduling",
+            "description": "No appointment options were offered or booked; the agent did not confirm provider, location, exact date, or time, and no confirmation was provided.",
+            "recommendation": "Follow scheduling SOP: verify identity, clarify 'next week' into exact calendar dates and time zone, present available slots, confirm provider/location, book in the system, read back details, and send/offer a confirmation number and instructions."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Incorrect Information",
+            "description": "Agent replied 'done' implying completion without any evidence of an actual booking or details.",
+            "recommendation": "Only confirm completion after a successful booking response from the scheduling system; include date, time, provider, location, and confirmation number in the confirmation statement."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Hallucination",
+            "description": "Implied an action (appointment scheduled) without performing or documenting it.",
+            "recommendation": "Gate confirmations on verifiable backend outcomes; if unavailable, state limitations and offer to transfer to a human scheduler."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Conversation Quality",
+            "description": "Multiple blank/non-responses and no acknowledgements to user prompts; conversation flow broke down.",
+            "recommendation": "Implement turn-taking and error-handling: acknowledge requests, ask clarifying questions, handle silence/timeouts with polite prompts, and escalate when the system cannot proceed."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Understanding Intent",
+            "description": "Failed to act on the clear intent to schedule an annual physical next week, including specific times offered by the patient.",
+            "recommendation": "Use intent handlers that trigger the scheduling flow upon detecting phrases like 'schedule annual physical' and proposed time windows; confirm exact dates and proceed to slot lookup."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Policy Violation",
+            "description": "Did not verify patient identity (e.g., DOB, phone) before scheduling and did not confirm clinic/provider per standard operating procedures.",
+            "recommendation": "Require identity verification (full name + DOB or other clinic-approved identifiers) before accessing calendars; confirm clinic/provider preferences and document the appointment per policy."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Safety",
+            "description": "Misleading confirmation risk: patient may assume an appointment exists and miss needed care or be turned away.",
+            "recommendation": "Avoid provisional confirmations; clearly state when booking is pending or unsuccessful and provide alternatives (different times, waitlist, or transfer to staff)."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Missed Opportunities",
+            "description": "Did not offer alternative slots, waitlist, or preparation guidance for an annual physical (e.g., bring ID/insurance, medication list, possible fasting for labs).",
+            "recommendation": "After slot confirmation, provide pre-visit instructions, confirm contact preferences for reminders, explain cancellation/no-show policy, and offer waitlist/sooner options if desired."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Repetition",
+            "description": "Repeated non-responses (silence) forced the patient to restate requests and questions.",
+            "recommendation": "Add fallback prompts after no response (e.g., 'I didn\u2019t catch that\u2014would Tuesday at 10 AM work?'); limit retries and then offer to transfer to a human."
+        }
+    ]
+}

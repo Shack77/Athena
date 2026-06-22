@@ -1,0 +1,67 @@
+{
+    "overall_score": 5,
+    "call_successful": false,
+    "summary": "Agent repeatedly asked for more details and never provided office hours, guidance, or escalation; missed safety and scheduling needs.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Failure to Understand Intent",
+            "description": "The patient clearly asked for office hours and after-hours options multiple times, but the agent failed to recognize or act on the intent.",
+            "recommendation": "Add robust intent recognition for common requests (e.g., office hours). On first detection, provide hours or ask a targeted clarifying question (e.g., which location/provider). If information isn\u2019t available, retrieve from knowledge base or immediately escalate to human."
+        },
+        {
+            "severity": "CRITICAL",
+            "category": "Repetitive Responses",
+            "description": "The agent repeated the same prompt ('Can you provide more details?') throughout the call, creating an unproductive loop.",
+            "recommendation": "Implement loop detection and response variation. After one failed clarification, paraphrase the user\u2019s request; after two failures, escalate or provide alternative resources (website, voicemail). Set a maximum of two generic reprompts."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Scheduling",
+            "description": "Did not provide office hours, ask for location/provider context, offer to schedule, or direct the patient to official hour listings.",
+            "recommendation": "When asked about hours, confirm the clinic/location, present standard hours and any evening/weekend availability, note holiday variations, and offer to schedule. If data unavailable, provide the website/portal link or transfer to front desk."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Safety",
+            "description": "Patient asked about urgent visit options; the agent gave no triage guidance or emergency/after-hours instructions.",
+            "recommendation": "Add safety triage. When 'urgent' or 'after-hours' is mentioned, advise calling 911 for life-threatening emergencies, provide on-call/urgent care info if available, and offer to connect to after-hours line."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Conversational Quality",
+            "description": "Lacked empathy, intent paraphrasing, targeted clarifications, or next-step guidance; conversation felt robotic and unhelpful.",
+            "recommendation": "Adopt best practices: acknowledge the request, paraphrase, ask specific clarifiers (e.g., location), provide concrete info or actions, and close with a helpful summary or escalation."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Missed Opportunities",
+            "description": "Agent failed to offer alternative channels (website, portal, voicemail) or a warm transfer when unable to provide hours.",
+            "recommendation": "Provide self-service options (URL to hours, portal), offer to send details via SMS/email, or transfer to staff. Provide recorded hours via IVR when live data unavailable."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Policy Violations",
+            "description": "Likely violates call-handling policies by persisting in a loop without escalation and omitting emergency/urgent care disclaimers.",
+            "recommendation": "Enforce policies: maximum reprompts, mandatory emergency disclaimer on urgent cues, and auto-escalation to a human after repeated misunderstandings."
+        },
+        {
+            "severity": "LOW",
+            "category": "Incorrect Information",
+            "description": "No incorrect facts were given; however, the absence of information created confusion and unmet needs.",
+            "recommendation": "When data is unavailable, clearly state limitations and provide reliable alternatives (transfer, website, callback)."
+        },
+        {
+            "severity": "LOW",
+            "category": "Hallucinations",
+            "description": "No fabricated information was provided.",
+            "recommendation": "Maintain the practice of not guessing. Pair with effective retrieval and escalation so correctness does not come at the cost of usefulness."
+        },
+        {
+            "severity": "LOW",
+            "category": "Medication/Refill",
+            "description": "Not applicable; medications were not discussed.",
+            "recommendation": "No action needed for this call. Ensure future workflows can answer or route refill requests promptly."
+        }
+    ]
+}

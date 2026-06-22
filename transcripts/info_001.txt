@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, I was wondering what your office hours are?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, I just want to know what days and times the office is open for appointments.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Specifically, I need to schedule a check-up and want to make sure I call during your working hours. Could you tell me the days and times you’re open?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I'm trying to plan my visit and want to see if you have evening or weekend hours available as well.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I want to know if you have any special hours for urgent visits or if it's strictly by appointment during regular hours. Could you clarify that?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I just want to make sure I won't miss your open hours since I usually work weekdays; do you have any late hours or weekend openings?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+To sum up, can you please give me your full weekly schedule, including start and end times each day, and any variations like holidays or special closings?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I'm trying to coordinate with my work schedule, so knowing your exact office hours, contact availability, and any after-hours options would be really helpful.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+It sounds like you might not be able to share your hours right now. If so, could you tell me the best way to find out or someone else I can ask?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I really need to know when I can come in for an appointment; if you can’t provide your hours now, can you at least direct me to where this information is posted online or if there’s a voicemail with your schedule?
+
+ATHENA:
+Can you provide more details?

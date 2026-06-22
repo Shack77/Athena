@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, this is Mary Johnson. I’d like to request a refill for my diabetes medication, please.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, it’s metformin, 500 mg, the prescription number should be on file under my name.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I usually take one tablet twice a day, and I think I’m nearly out. Could you check if a refill is available?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+It was last prescribed by Dr. Smith about a month ago, and I haven’t missed any doses. Is there anything else you need from me?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I don’t have the exact prescription number handy, but my date of birth is March 14, 1952, if that helps with locating my records.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+That’s pretty much all the info I have for now. Could you please tell me what the next steps are to get my refill processed?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I’m not sure what else to add—should I come in for an appointment, or can the refill be handled over the phone?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I understand you may need more info, but I think I covered my medication name, dosage, last prescription date, and doctor. Could you please guide me on what else is specifically required?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I appreciate your help. If you need my insurance information or pharmacy details, I can provide those too. Would that help with processing the refill?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yes, my pharmacy is Walgreens on Main Street. I hope that helps—please let me know if there’s anything else you need from me.
+
+ATHENA:
+Can you provide more details?

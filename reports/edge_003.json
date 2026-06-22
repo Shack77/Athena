@@ -1,0 +1,49 @@
+{
+    "overall_score": 8,
+    "call_successful": false,
+    "summary": "Agent looped on generic prompts, failed to triage dizziness/headache or schedule a general check-up, offered no guidance or escalation.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Safety concerns",
+            "description": "No triage for potentially urgent symptoms (dizziness, headaches, lightheadedness). The agent did not ask about red flags (sudden/severe headache, neuro deficits, fainting, chest pain, shortness of breath, confusion) or advise urgent/ED care if present.",
+            "recommendation": "Implement a structured triage flow for dizziness/fatigue/headache: assess onset, duration, severity, triggers, associated neuro/cardiac symptoms, hydration, pregnancy status. If red flags or acute distress are reported, instruct calling emergency services or going to urgent care, and escalate to a clinician."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Scheduling",
+            "description": "Despite explicit requests to set up a general check-up, the agent did not propose an appointment type, gather availability, or book/offer the earliest slot.",
+            "recommendation": "When patient intent is to \u2018get checked out\u2019 without a specific diagnosis, default to scheduling a primary care visit (family medicine/internal medicine) or annual physical. Confirm preferred location/provider, check insurance if required, offer earliest available times, and confirm the appointment."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Failure to understand intent",
+            "description": "The agent ignored multiple clear scheduling requests and remained in a clarification loop.",
+            "recommendation": "Enhance NLU to detect intents like \u2018schedule appointment\u2019 and \u2018general physical.\u2019 Acknowledge intent, summarize symptoms, and transition from information gathering to booking without looping."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Repetitive responses",
+            "description": "The agent repeated the exact phrase \u201cCan you provide more details?\u201d throughout the call, creating an unhelpful loop.",
+            "recommendation": "Add conversation state tracking, response variation, and a repetition guardrail (e.g., after two unsuccessful clarifications, escalate or offer options). Use targeted, closed-ended follow-up questions instead of generic prompts."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Poor conversational quality",
+            "description": "No empathy, no summarization of patient concerns, no guidance on next steps, and no reassurance.",
+            "recommendation": "Adopt empathetic language (\u201cI\u2019m sorry you\u2019re feeling off\u201d), reflect back key symptoms, explain plan (triage + schedule), and set expectations for the visit."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Missed opportunities",
+            "description": "No targeted intake to narrow causes (onset, timing, hydration, orthostatic triggers, recent illness, COVID screening, caffeine/alcohol, menstrual/pregnancy status), no self-care advice, no offer of telehealth or nurse triage.",
+            "recommendation": "Use a brief intake checklist for nonspecific fatigue/dizziness and offer safe self-care tips (hydrate, rise slowly), telehealth options, or nurse line. Capture callback number and patient preferences."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Policy violations",
+            "description": "Did not follow scheduling/triage SOPs: no emergency disclaimer or red-flag screening; no escalation or warm transfer after repeated failure to progress.",
+            "recommendation": "Enforce SOPs: include an emergency-use disclaimer; mandatory red-flag screening for dizziness/headache; after two failed clarification attempts, escalate to a human agent or nurse line."
+        }
+    ]
+}

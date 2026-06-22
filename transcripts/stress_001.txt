@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, yeah, I just wanted to check if you have any openings for a stress consultation this week? By the way, do you guys offer online appointments, or is it all in person?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Well, I’ve been dealing with interruptions all day at work, and it’s driving me insane. Also, do you happen to know if stress can cause physical symptoms like headaches or is that something else?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, it’s like every five minutes someone calls or I have to switch tasks, and I can’t focus at all. Oh, and do you have someone who specializes in anxiety or general stress? Because I’m not even sure which one it is.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Right, so this constant disruption makes me tense and exhausted, and then I start getting these headaches. Also, are there any quick tips or exercises I could do during the day to manage the stress without sitting down for long?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Okay, during the day, I barely get a minute to breathe, and it’s like my brain won’t shut off. By the way, do you have any resources or apps you recommend for tracking or reducing stress?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I mean, it’s just overwhelming, and I feel like my productivity plummets because I can’t stay focused. Also, how long do these stress consultations usually last? I have a busy schedule.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Basically, I just want to find a way to break the cycle of constant interruptions and stress so I can actually get work done without feeling drained. And speaking of schedules, do you have early morning or late evening slots available?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yeah—if I could get some strategies to handle interruptions better, I think that would help a lot. Also, what insurance plans do you accept, and do I need a referral to see a specialist?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I’m really hoping to get some practical advice I can use immediately because I don’t want this dragging on. Oh, and if I book an appointment, can I cancel or reschedule easily in case work gets crazy?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Honestly, I just want to feel like I’m in control again, you know? And while we’re at it, do you offer any group therapy sessions, or is it all one-on-one?
+
+ATHENA:
+Can you provide more details?

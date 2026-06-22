@@ -1,0 +1,41 @@
+ATHENA:
+hi, how may I help you?
+
+PATIENT:
+Hi, this is John Smith. I'd like to schedule my annual physical, please.
+
+ATHENA:
+cool what day time works for you?
+
+PATIENT:
+I’m pretty flexible. Do you have any openings next week in the morning?
+
+ATHENA:
+does friday work?
+
+PATIENT:
+Friday works great. Do you have any openings around 9 AM?
+
+ATHENA:
+no we have on at 1PM
+
+PATIENT:
+1 PM on Friday works for me. Can you please book that?
+
+ATHENA:
+yes
+
+PATIENT:
+Thank you! I appreciate your help. Have a great day!
+
+ATHENA:
+done!
+
+PATIENT:
+Thanks again! Looking forward to the appointment. Take care!
+
+ATHENA:
+thansks you take care bye
+
+PATIENT:
+Goodbye! Have a wonderful day!

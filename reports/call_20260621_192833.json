@@ -1,0 +1,67 @@
+{
+    "overall_score": 38,
+    "call_successful": false,
+    "summary": "Agent ostensibly booked an appointment but failed to verify identity, confirm concrete details, or provide confirmation/instructions; tone and clarity were substandard.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Hallucinations",
+            "description": "Agent stated the appointment was booked (\"yes\", \"done!\") without collecting required details, confirming clinic/provider, or giving a confirmation number\u2014likely asserting an action not actually completed.",
+            "recommendation": "Integrate with the scheduling system and only confirm after successful creation; read back all details and provide a confirmation number. If booking cannot be completed, clearly state that and offer a callback or transfer."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Scheduling",
+            "description": "Ambiguous booking details: no explicit calendar date for \"Friday next week,\" no time zone, provider, or location confirmation, and no final read-back.",
+            "recommendation": "Always confirm weekday + calendar date, exact time with time zone, provider, location, and appointment type; perform a complete read-back and obtain explicit patient confirmation."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Policy Violations",
+            "description": "No identity verification (e.g., DOB, phone/address) prior to scheduling, which violates common clinic/HIPAA procedures for patient authentication.",
+            "recommendation": "Enforce an identity verification workflow: full name + DOB + a secondary identifier (phone or address) before accessing or creating appointments."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Safety",
+            "description": "Lack of verified details and contact info increases risk of the patient arriving on the wrong date/time or having no appointment on file; no way to send reminders or instructions.",
+            "recommendation": "Capture contact details, send written confirmation and reminders, provide cancellation/no-show policy, and include arrival instructions to reduce safety risks."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Missed Opportunities",
+            "description": "No pre-visit guidance for an annual physical (e.g., potential fasting for labs), no verification of established vs. new patient, insurance/referral requirements, preferred clinician/location, or offer of reminders/portal forms.",
+            "recommendation": "Use an annual-physical checklist: confirm established/new status, clinician/location, insurance/referral needs, fasting/lab instructions, arrival time, portal forms, accessibility needs, and reminder preferences."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Scheduling",
+            "description": "Patient requested a morning slot; agent proposed only 1 PM without checking morning availability, nearby alternatives, or offering a waitlist.",
+            "recommendation": "Search within the requested window first; if unavailable, propose the closest alternatives (same day earlier/later or adjacent days) and offer a waitlist."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Intent Understanding",
+            "description": "Partially missed the user's stated preference for a morning appointment next week; agent did not clarify willingness to switch to an afternoon slot before offering 1 PM.",
+            "recommendation": "Reflect back constraints (\"next week, mornings around 9 AM\"), confirm flexibility, then search accordingly."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Conversational Quality",
+            "description": "Informal tone and errors (e.g., \"cool,\" \"thansks,\" lowercase, terse one-word replies) reduce professionalism and clarity.",
+            "recommendation": "Use professional language with proper grammar/capitalization; provide complete, courteous responses and a structured closing."
+        },
+        {
+            "severity": "LOW",
+            "category": "Incorrect Information",
+            "description": "Unclear phrasing (\"we have on at 1PM\") and failure to specify the exact date can mislead the patient.",
+            "recommendation": "State precise availability: \"We have Friday, [Month] [Date] at 1:00 PM [Time Zone].\" Avoid ambiguous wording."
+        },
+        {
+            "severity": "LOW",
+            "category": "Repetition",
+            "description": "Minimal repetitive acknowledgments (\"yes,\" \"done\") add little clarity, though not excessive.",
+            "recommendation": "Replace terse repeats with informative confirmations summarizing the key details and next steps."
+        }
+    ]
+}

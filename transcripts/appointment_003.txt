@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, I’m Kevin Wilson. I’m new to the area and was hoping to schedule a first-time patient appointment. Could you walk me through the new patient process?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure! I just moved here recently and I haven’t seen a doctor in this office before. I’d like to know what forms I need to fill out and what I should bring for my first visit.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Absolutely! I’d like to know if I should bring any previous medical records or insurance information, and whether there’s an online form I can fill out beforehand to save time.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Of course! Also, I’m curious if the first visit is mainly a general check-up or if there are specific tests usually done, and how long the appointment typically lasts.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+That’s helpful to know. Could you also tell me if your office offers any telehealth options for follow-ups, or if everything has to be in-person?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Thanks! Lastly, I’m curious about the payment options—do you accept my insurance, and what payment methods do you prefer?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I appreciate all the info. One more thing—how far in advance should I schedule my appointment, and is there flexibility if I need to reschedule?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Thanks for being so thorough! Could you also let me know if you have any recommendations for preparing for the appointment, like fasting or bringing a list of questions?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+That covers most of it. How about parking—do you have patient parking, and is it free or metered?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I think that’s all I need for now. Thanks for answering all my questions! How do I go about actually booking the appointment?
+
+ATHENA:
+Can you provide more details?

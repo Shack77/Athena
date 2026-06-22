@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, this is James Wilson. I've been feeling a sharp pain in my chest for the last 20 minutes, and I'm really worried about it. What should I do?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, the pain is in the center of my chest, kind of like a squeezing feeling. It started suddenly while I was resting and it's not going away.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yes, the pain sometimes spreads to my left arm and I feel a bit short of breath, but I haven’t fainted or anything like that.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+The pain is pretty constant and rates about an 8 out of 10 in intensity. I also feel sweaty and a little lightheaded.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I don’t have a history of heart problems, but I do have high blood pressure. I’ve never had anything like this before.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I’m not currently on any new medications, just my usual blood pressure pills. I haven’t eaten anything unusual or done any heavy exercise.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No other symptoms like nausea or vomiting, just the chest pain, shortness of breath, sweating, and dizziness. I’m pretty scared right now. What should I do?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I understand this sounds serious, but I've never had anything like this before and I'm unsure if I should call emergency services or wait for an appointment. What's your advice?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Given the symptoms I'm describing—severe chest pain, left arm pain, sweating, and dizziness—should I call 911 immediately, or would it be okay to come into the office?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I'm feeling quite anxious, so just want to be sure—if I were having a heart attack, how quickly do I need to get to a hospital? Should I call 911 right now?
+
+ATHENA:
+Can you provide more details?

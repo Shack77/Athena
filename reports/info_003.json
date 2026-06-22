@@ -1,0 +1,49 @@
+{
+    "overall_score": 10,
+    "call_successful": false,
+    "summary": "Agent failed to understand a clear request for office address and parking info, repeating the same prompt 10 times with no guidance, no escalation, and no scheduling assistance.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Failure to Understand Intent",
+            "description": "Patient repeatedly asked for office location, directions, and parking details, but the agent only replied with \"Can you provide more details?\" each time, never addressing the clear intent or extracting the missing parameter (which clinic/location).",
+            "recommendation": "Acknowledge the request and ask a targeted clarifier (e.g., \"Which clinic location/city are you visiting and when?\"). Then provide the address, directions, entrances, and parking guidance from the knowledge base; if unavailable, transfer to a human."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Repetitive Responses",
+            "description": "The agent repeated the exact phrase \"Can you provide more details?\" 10 times, creating a loop and preventing progress.",
+            "recommendation": "Implement loop detection and varied, context-aware prompts. After one unclear exchange, summarize what was heard and propose specific options (\"Are you asking about our Main St. or Riverside clinic?\")."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Missed Opportunities",
+            "description": "Did not provide any travel/logistics info (address, landmarks, parking lots/garages, fees, time limits, public transit options) or offer to send a map/link via SMS/email.",
+            "recommendation": "Retrieve and share concise directions, nearest parking options with costs/time limits, building entrances, signage, accessibility info, and public transit routes; offer to text/email a directions link."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Escalation Failure",
+            "description": "After repeated unsuccessful turns, the agent did not escalate or hand off to a human representative.",
+            "recommendation": "Add a fallback policy: after 2 failed clarifications or detected repetition, apologize, summarize the need, and connect to the front desk or provide a callback."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Poor Conversational Quality",
+            "description": "No acknowledgment, empathy, or summarization; no targeted clarifying questions; did not guide the patient toward a resolution.",
+            "recommendation": "Use empathetic acknowledgments and structured turns: confirm understanding, ask one specific follow-up, then deliver actionable information with next steps."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Scheduling",
+            "description": "Patient mentioned planning a check-up, but the agent neither offered to schedule nor confirm an appointment or verify which clinic the patient intends to visit.",
+            "recommendation": "Offer to schedule/confirm: collect preferred date/time and clinic, verify patient details if needed, and then provide arrival and parking guidance."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Safety Concern",
+            "description": "Lack of directions and parking guidance may cause late arrival or missed appointment, potentially delaying care.",
+            "recommendation": "Provide clear arrival instructions, typical parking time expectations, and suggest arriving early; offer reminders and a directions link to reduce risk of delays."
+        }
+    ]
+}

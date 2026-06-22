@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, this is Daniel Garcia. Could you please tell me where your office is located and if there’s parking available nearby?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure! I’m planning to visit for a check-up and want to know the exact address and if I need to pay for parking or if there’s free parking around the office.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I mean, is the office easy to find from the main road, and are there any parking garages or lots close by that patients usually use?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I’m just trying to plan my trip so I know which entrance to use and whether I should allow extra time to find parking.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I want to make sure I won’t be late because of confusing directions or parking issues, so any tips on the best way to get there would help.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Basically, I’d appreciate if you could describe the building or any landmarks nearby, and let me know if there are specific spots reserved for patients.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Is there a particular side of the building I should enter from, and do you have any signs or indicators to look for when I arrive?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Or, do you suggest using public transportation, or is driving and parking at the office more convenient?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I’m just trying to figure out if it’s easier to get there by bus or car, considering traffic and parking options.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I'm sorry if I'm asking too many questions, but I want to be sure I have everything right for my visit—could you also tell me about nearby parking fees or time limits?
+
+ATHENA:
+Can you provide more details?

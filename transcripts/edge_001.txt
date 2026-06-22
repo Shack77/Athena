@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi, I'd like to schedule an appointment for a check-up sometime next week, if possible. Actually, now that I think about it, I realized I might need to cancel an existing appointment instead. Could you help with that?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure, I have an appointment scheduled for next Thursday at 3 PM, but I’m no longer sure if I can make it. Could you cancel that one for me?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+It's under the name Chris Anderson. The appointment is with Dr. Lee. Is there anything else you need to find it?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+That’s all the details I have. Should I provide my date of birth or phone number to help locate the appointment?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yes, my date of birth is 01/15/1984. Will that be enough to find the appointment?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I believe that should be enough. Is there anything else I need to do to confirm the cancellation?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No, I think that's all from me. Could you please go ahead and cancel that appointment for me?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Actually, could you also tell me if there’s a cancellation fee I should be aware of?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+No, I’m just curious about the fee policy. Once you confirm that, I’d like to finish the cancellation.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+If there’s no fee, should I consider rescheduling now or wait until later? I’m a bit unsure.
+
+ATHENA:
+Can you provide more details?

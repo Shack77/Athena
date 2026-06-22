@@ -1,0 +1,62 @@
+ATHENA:
+Thank you for calling. How may I help you today?
+
+PATIENT:
+Hi there! This is Nathan Scott. I've been feeling really overwhelmed and stressed out lately, and I think I need to talk to someone about it. Can you help me set up an appointment? Also, do you have any tips for managing stress in the meantime?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Yeah, sure! Work has been crazy busy, and I’m juggling so many deadlines it feels like my brain might explode. On top of that, I’ve been having trouble sleeping and just generally feeling anxious all the time. Do you think this could be something like an anxiety disorder? And what kind of specialists do you have for stress-related issues?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Absolutely! It's not just the workload—it's the constant pressure and the feeling that I’m always behind. I’ve noticed I'm more irritable too, snapping at my family more than usual, which makes me feel even worse. I’m wondering if seeing a therapist or maybe a counselor through your office would be best? And do you recommend medication, or do people usually try therapy first?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Well, I guess it’s also been affecting my appetite; some days I barely feel like eating. And those restless nights make it hard to recharge, so my energy during the day is just zapped. I’m definitely open to therapy to start with—I’d like to learn some coping strategies. But I’m curious, how often do people usually come in for sessions, and how long does it take before they start feeling better?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Sure thing! I’ve read that stress can lead to physical symptoms, like headaches and muscle tension, and I’ve been getting those too—especially a tight neck and occasional migraines. It’s like my body is constantly on edge. Do you have any recommendations for stress relief techniques I can try at home while waiting for my appointment? And is there a particular type of therapy that works best for stress and anxiety?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Well, now that you mention it, sometimes I catch myself just overthinking everything—even small stuff—and that just makes me spiral into more worry. It's like a loop I can't break. I’ve heard cognitive-behavioral therapy might help with that, is that something your providers do? Also, how soon could I get an appointment? I’d really like to start this as soon as possible.
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I guess another thing is that my motivation has taken a hit too—I find it tough to get started on tasks or even enjoy hobbies that I used to love. It’s frustrating because I know doing those things helps, but getting there feels like climbing a mountain. So, does your office offer any group sessions or workshops for stress management, or is it mostly one-on-one? Also, how do follow-ups usually work after the initial appointment?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Honestly, sometimes I feel kind of isolated because I don't want to burden my friends or family with how stressed I am, but then that just makes me feel alone. I’m hoping that talking to a professional can provide some relief and maybe some practical advice. Do your specialists also discuss lifestyle changes, like exercise or diet, as part of managing stress? And about the appointment—what days and times do you have available this week?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+Thinking about it more, I realize I haven’t really set aside any quiet time for myself lately—everything’s just been go-go-go. I’ve heard mindfulness and meditation can help, but I don’t know where to start. Do your providers guide patients through those kinds of techniques? And if I wanted to bring my spouse to a session for support, is that possible?
+
+ATHENA:
+Can you provide more details?
+
+PATIENT:
+I suppose what’s really been tough is just the unpredictability—some days are almost normal, but then a small trigger can send me into a panic or just a bad mood for the rest of the day. It’s exhausting not knowing when I might just lose it. So, how do your providers help with building resilience to those ups and downs? And again, what’s your soonest appointment available? I’m ready to book something.
+
+ATHENA:
+Can you provide more details?

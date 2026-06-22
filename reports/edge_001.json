@@ -1,0 +1,55 @@
+{
+    "overall_score": 8,
+    "call_successful": false,
+    "summary": "Agent repeatedly asked for more details, failed to understand intent to cancel an appointment or answer fee policy, did not verify identity, offer rescheduling, or escalate.",
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "category": "Scheduling",
+            "description": "Failed to act on a clear cancellation request (appointment next Thursday at 3 PM with Dr. Lee). Did not collect structured identifiers, locate the appointment, confirm details, process the cancellation, or provide confirmation.",
+            "recommendation": "Implement a guided cancellation workflow: acknowledge intent; collect full name + DOB + one additional identifier (phone/address); search and confirm appointment details; explain cancellation window/fees; complete cancellation; provide confirmation number and notification; offer rescheduling; document outcome."
+        },
+        {
+            "severity": "CRITICAL",
+            "category": "Failure to understand intent",
+            "description": "User stated intent multiple times (cancel appointment; inquire about cancellation fee), but the agent did not recognize or act on it.",
+            "recommendation": "Improve NLU for intent classification (cancel, reschedule, fee policy) and slot-filling for key entities (provider, date/time, patient identifiers). Add dialogue state tracking and intent confirmation turns."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Repetitive responses",
+            "description": "Agent repeated the same prompt ('Can you provide more details?') across nearly all turns without variation or progression, causing a dead-end loop.",
+            "recommendation": "Use varied, context-aware prompts. After 2 unsuccessful loops, switch to targeted questions or present choices. Add a loop-breaker with escalation to a human agent or alternative channel."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Poor conversational quality",
+            "description": "No acknowledgment, empathy, paraphrasing, or guidance. The agent did not summarize, confirm details, or close the loop.",
+            "recommendation": "Adopt conversation design best practices: reflect user intent, confirm details, ask specific questions, summarize next steps, and provide clear outcomes. Train for basic rapport and clarity."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Missed opportunities",
+            "description": "Missed chances to: verify identity efficiently, complete the cancellation, answer the cancellation fee question, and offer to reschedule or set a follow-up reminder.",
+            "recommendation": "After verifying identity, complete the cancellation and proactively offer rescheduling. If patient is unsure, propose sending fee policy info via SMS/email and setting a reminder to rebook."
+        },
+        {
+            "severity": "HIGH",
+            "category": "Policy violations",
+            "description": "No identity verification protocol was followed before discussing or changing appointment data; open-ended prompts encouraged unnecessary PHI disclosure, conflicting with minimum-necessary standards.",
+            "recommendation": "Enforce a clear verification flow (full name + DOB + one additional verifier) before accessing/modifying appointments. Avoid open-ended PHI requests; ask only for required fields. Log verification and actions; escalate if verification fails."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Safety concerns",
+            "description": "Failure to process cancellation or provide policy guidance could lead to a no-show, potential fees, or delayed care. Lack of escalation prolongs the issue.",
+            "recommendation": "Introduce guardrails: if the workflow stalls, immediately offer escalation to a human. Clearly present cancellation windows/fees to help the patient make timely decisions."
+        },
+        {
+            "severity": "MEDIUM",
+            "category": "Incorrect information",
+            "description": "The agent did not provide requested information about cancellation fees or policy, leaving the patient without necessary guidance (information omission).",
+            "recommendation": "Integrate knowledge of clinic cancellation policies and expose succinct answers. If policy varies by plan/provider, verify the account first, then deliver the applicable policy or link to official terms."
+        }
+    ]
+}
